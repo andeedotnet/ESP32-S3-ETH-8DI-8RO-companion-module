@@ -1,0 +1,27 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "ESP32-S3-ETH-8DI-8RO-companion-module",
+	"name": "ESP32-S Relays",
+	"shortname": "ESP32-S Relays",
+	"description": "Control ESP32-S3-ETH-8DI-8RO relay board via HTTP API",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/andeedotnet/ESP32-S3-ETH-8DI-8RO-companion-module.git",
+	"bugs": "https://github.com/andeedotnet/ESP32-S3-ETH-8DI-8RO-companion-module/issues",
+	"maintainers": [
+		{
+			"name": "andeedotnet"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "ESP32-S",
+	"products": ["8DI-8RO Relays"],
+	"keywords": ["relay", "esp32", "digital input", "gpio"]
+}

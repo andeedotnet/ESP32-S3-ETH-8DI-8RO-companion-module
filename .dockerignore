@@ -1,0 +1,6 @@
+node_modules/
+build/
+pkg/
+*.tgz
+.yarn/cache/
+.git/
